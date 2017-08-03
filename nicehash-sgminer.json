@@ -1,0 +1,79 @@
+{
+    "pools" : [
+	{
+	    "name" : "NiceHash_X15_multi",
+	    "url" : "stratum+tcp://x15.eu.nicehash.com:4339",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "bitblock"
+	},
+	{
+	    "name" : "NiceHash_NIST5_multi",
+	    "url" : "stratum+tcp://nist5.eu.nicehash.com:4340",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "talkcoin-mod"
+	},
+	{
+	    "name" : "NiceHash_NeoScrypt_multi",
+	    "url" : "stratum+tcp://neoscrypt.eu.nicehash.com:4341",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "neoscrypt"
+	},
+	{
+	    "name" : "NiceHash_Lyra2RE_multi",
+	    "url" : "stratum+tcp://lyra2re.eu.nicehash.com:4342",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "Lyra2RE"
+	},
+	{
+	    "name" : "NiceHash_WhirlpoolX_multi",
+	    "url" : "stratum+tcp://whirlpoolx.eu.nicehash.com:4343",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "whirlpoolx"
+	},
+	{
+	    "name" : "NiceHash_Qubit_multi",
+	    "url" : "stratum+tcp://qubit.eu.nicehash.com:4344",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "qubitcoin"
+	},
+	{
+	    "name" : "NiceHash_Quark_multi",
+	    "url" : "stratum+tcp://quark.eu.nicehash.com:4345",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "quarkcoin"
+	},
+	{
+	    "name" : "NiceHash_Lyra2REv2_multi",
+	    "url" : "stratum+tcp://lyra2rev2.eu.nicehash.com:4347",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "Lyra2REv2"
+	},
+	{
+	    "name" : "NiceHash_X11_backup",
+	    "url" : "stratum+tcp://x11.eu.nicehash.com:3336",
+	    "user" : "17rGi7jt1ruNyKZbyJTpZ9RKmeX7cJnXbv",
+	    "pass" : "x",
+	    "nfactor" : "10",
+	    "algorithm" : "darkcoin-mod"
+	},
+    ],
+    "failover-only" : true,
+    "failover-switch-delay" : "300",
+    "queue" : "0",
+}
