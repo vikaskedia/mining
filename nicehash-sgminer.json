@@ -71,9 +71,9 @@
 	    "pass" : "x",
 	    "nfactor" : "10",
 	    "algorithm" : "darkcoin-mod"
-	},
+	}
     ],
     "failover-only" : true,
     "failover-switch-delay" : "300",
-    "queue" : "0",
+    "queue" : "0"
 }
